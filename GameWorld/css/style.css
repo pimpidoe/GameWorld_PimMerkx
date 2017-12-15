@@ -1,0 +1,472 @@
+body {
+  background-image: url("../images/background3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main-container {
+  width: 1000px;
+  height: 570px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner {
+background-image: url("../images/background1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 25px;
+width: inherit;
+height: inherit;
+position: absolute;
+top: 0px;
+left: 0px;
+z-index: -1;
+}
+
+
+
+.banner-text {
+  position: absolute;
+  top: -25px;
+  left: 25px;
+  z-index: 1;
+  color: #000000;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgb(74, 135, 157), 1px -1px 0 rgb(74, 135, 157), -1px 1px 0 rgb(74, 135, 157), 1px 1px 0 rgb(74, 135, 157);
+}
+
+.ps {
+  width: 250px;
+  height: 150px;
+  z-index: 2;
+  position: absolute;
+  background-image: url("../images/ps.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  bottom: 15px;
+  left: 15px;
+
+}
+
+#ps-text {
+  color: white;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-decoration: none;
+  text-shadow: -1.5px -1.5px 0 blue, 1.5px -1.5px 0 blue, -1.5px 1.5px 0 blue, 1.5px 1.5px 0 blue;
+}
+
+.xbox {
+  width: 250px;
+  height: 150px;
+  z-index: 2;
+  position: absolute;
+  background-image: url("../images/xbox.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  bottom: 15px;
+  left: 375px;
+}
+
+#xbox-text {
+  color: white;
+  z-index: 3;
+  bottom: 0;
+  position: absolute;
+  margin-left: 90px;
+  margin-bottom: 5px;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-decoration: none;
+  text-shadow: -1.5px -1.5px 0 green, 1.5px -1.5px 0 green, -1.5px 1.5px 0 green, 1.5px 1.5px 0 green;
+}
+
+.pc {
+  width: 250px;
+  height: 150px;
+  z-index: 2;
+  position: absolute;
+  background-image: url("../images/pc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  bottom: 15px;
+  right: 15px;
+
+}
+
+#pc-text {
+  color: white;
+  z-index: 3;
+  position: absolute;
+  bottom: 0;
+  margin-left: 110px;
+  margin-bottom: 5px;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-decoration: none;
+  text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, -1.5px 1.5px 0 black, 1.5px 1.5px 0 black;
+}
+
+
+#footer {
+  background-color: rgba(0, 0, 0, 0.0);
+  z-index: 4;
+  height: 40px;
+  width: 1000px;
+  left: 260px;
+  position: relative;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+  font-family: "Impact";
+}
+
+#consoleheader{
+  background-color: rgba(0, 0, 0, 0.71);
+  height: 50px;
+  width: 980px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 25px;
+  float: left;
+
+}
+
+.consoleheadertext {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgb(74, 135, 157), 1px -1px 0 rgb(74, 135, 157), -1px 1px 0 rgb(74, 135, 157), 1px 1px 0 rgb(74, 135, 157);
+}
+
+#product1 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  top: 70px;
+  left: 10px;
+}
+
+#product2 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  top: 70px;
+  left: 260px;
+}
+
+#product3 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  top: 70px;
+  right: 260px;
+}
+
+#product4 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  top: 70px;
+  right: 10px;
+}
+
+#product5 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  bottom: 10px;
+  left: 10px;
+}
+
+#product6 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  bottom: 10px;
+  left: 260px;
+}
+
+#product7 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  bottom: 10px;
+  right: 260px;
+}
+
+#product8 {
+  z-index: 3;
+  height: 240px;
+  width: 235px;
+  background-color: rgba(0, 0, 0, 0.0);
+  position: absolute;
+  border-radius: 25px;
+  bottom: 10px;
+  right: 10px;
+}
+
+.gameimage {
+  position: absolute;
+  height: 240px;
+  width: 235px;
+  background-image: url("../images/cover.jpg");
+  border-radius: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.productname {
+  z-index: 4;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.71);
+  border-radius: 25px;
+  width: 235px;
+  height: 45px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.price {
+  z-index: 4;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.00);
+  border-radius: 25px;
+  width: 100px;
+  height: 15px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.order {
+  z-index: 4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.00);
+  border-radius: 25px;
+  width: 100px;
+  height: 15px;
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.0);
+  height: 70px;
+  margin-left:  260px;
+  position: relative;
+}
+
+#logo {
+  float: left;
+  margin-top: 15px;
+  margin-left: 0px;
+}
+
+
+#logo ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#logo li {
+  display: inline;
+}
+
+#logo li a {
+  color: #000000;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgb(74, 135, 157), 1px -1px 0 rgb(74, 135, 157), -1px 1px 0 rgb(74, 135, 157), 1px 1px 0 rgb(74, 135, 157);
+}
+
+#logo li a:hover {
+  color: rgb(43, 43, 43);
+}
+
+#main-nav {
+  background-color: rgba(0, 0, 0, 0.0);
+  height: 70px;
+  margin-left:  260px;
+  position: relative;
+}
+
+.dash {
+  color: #000000;
+  padding-right: 10px;
+  font-size: 37px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+}
+
+#main-nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#main-nav li {
+  display: inline;
+}
+
+#main-nav li a {
+  display: inline-block;
+  width: auto;
+  padding-right: 10px;
+  height: 45px;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgb(74, 135, 157), 1px -1px 0 rgb(74, 135, 157), -1px 1px 0 rgb(74, 135, 157), 1px 1px 0 rgb(74, 135, 157);
+}
+
+#main-nav li a:hover {
+color: rgb(43, 43, 43);
+}
+
+#form ul{
+
+}
+
+#form li {
+  list-style: none;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Comic Sans MS"
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 rgb(74, 135, 157), 1px -1px 0 rgb(74, 135, 157), -1px 1px 0 rgb(74, 135, 157), 1px 1px 0 rgb(74, 135, 157);
+}
+
+#form li a{
+
+}
+.formBody {
+  border-color: black;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.70);
+  text-decoration: none;
+  width: 900px;
+  color: white;
+  padding-left: 5px;
+  font-family: "Impact";
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.formButton {
+  display: inline-block;
+  width: 450px;
+  height: 90px;
+  background-color: black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Impact";
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 2px solid red;
+  text-shadow: -1px -1px 0 rgb(74, 135, 157), 1px -1px 0 rgb(74, 135, 157), -1px 1px 0 rgb(74, 135, 157), 1px 1px 0 rgb(74, 135, 157);}
+
+.formButton:hover{
+    background-color: rgb(43, 43, 43);
+    color: rgb(43, 43, 43);
+}
+
+.formMessage {
+  height: 150px;
+  width: 900px;
+  display: block;
+  border-color: black;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.70);
+  text-decoration: none;
+  font-family: "Impact";
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
